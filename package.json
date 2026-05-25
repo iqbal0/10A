@@ -1,0 +1,13 @@
+{
+  "name": "rage-quit-dao",
+  "type": "module",
+  "scripts": {
+    "build": "node compile.js",
+    "compile": "node compile.js",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.16.0",
+    "solc": "^0.8.24"
+  }
+}
